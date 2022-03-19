@@ -1,0 +1,13 @@
+.percentageContainingDiv{
+    box-sizing: border-box;
+    color:"#565656";
+    font-size: 2rem;
+    max-width: 100%;
+    text-align: center;
+}
+
+.percentageSymbol{
+    color:green;
+    display: inline-block;
+    font-size: 1rem;
+}

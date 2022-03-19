@@ -1,0 +1,18 @@
+{
+    "manifest_version":3,
+    "name":"Medium Reading Percentage",
+    "version":"1.0.0",
+    "description":"An extension to calculate the percentage of an article you have read on medium",
+    "content_scripts":[
+        {
+            "matches":["*://*.medium.com/*"],
+            "js":["content.js"],
+            "css":["content.css"]
+        }
+    ],
+    "host_permissions":[
+        "*://*.medium.com/*"
+    ],
+    "permissions":["tabs"]
+
+}
